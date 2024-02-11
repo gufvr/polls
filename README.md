@@ -25,12 +25,12 @@ Initiate a new poll.
 
 ```json
 {
-  "title": "What's the supreme programming language?",
+  "title": "Qual o melhor framework Node.js?",
   "options": [
-    "JavaScript",
-    "Java",
-    "PHP",
-    "C#"
+    "Express",
+    "Fastify",
+    "NestJS",
+    "HapiJS"
   ]
 }
 ```
@@ -53,26 +53,26 @@ Retrieve data for a single poll.
 {
 	"poll": {
 		"id": "e4365599-0205-4429-9808-ea1f94062a5f",
-		"title": "What's the supreme programming language?",
+		"title": "Qual o melhor framework Node.js?",
 		"options": [
 			{
 				"id": "4af3fca1-91dc-4c2d-b6aa-897ad5042c84",
-				"title": "JavaScript",
+				"title": "Express",
 				"score": 1
 			},
 			{
 				"id": "780b8e25-a40e-4301-ab32-77ebf8c79da8",
-				"title": "Java",
+				"title": "Fastify",
 				"score": 0
 			},
 			{
 				"id": "539fa272-152b-478f-9f53-8472cddb7491",
-				"title": "PHP",
+				"title": "NestJS",
 				"score": 0
 			},
 			{
 				"id": "ca1d4af3-347a-4d77-b08b-528b181fe80e",
-				"title": "C#",
+				"title": "HapiJS",
 				"score": 0
 			}
 		]
